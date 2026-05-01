@@ -9,6 +9,26 @@
 <body>
   <h1>Hello, world!</h1>
   <button id="theme-toggle">Switch to Dark Mode</button>
+
+  <section id="contact">
+    <h2>제휴 문의</h2>
+    <form action="https://formspree.io/f/xjglkvwn" method="POST">
+      <div class="form-group">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" required placeholder="이름을 입력하세요">
+      </div>
+      <div class="form-group">
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" required placeholder="example@email.com">
+      </div>
+      <div class="form-group">
+        <label for="message">문의 내용</label>
+        <textarea id="message" name="message" required placeholder="문의하실 내용을 입력하세요"></textarea>
+      </div>
+      <button type="submit">문의 보내기</button>
+    </form>
+  </section>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
